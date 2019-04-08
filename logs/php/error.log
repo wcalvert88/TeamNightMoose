@@ -1,0 +1,2 @@
+[05-Apr-2019 23:42:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /app/public/wp-content/themes/cream-magazine/inc/customizer/controls/class-cream-magazine-multiple-select-dropdown-taxonomies.php on line 37
+[05-Apr-2019 23:42:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /app/public/wp-content/themes/cream-magazine/inc/customizer/controls/class-cream-magazine-multiple-select-dropdown-taxonomies.php on line 37
