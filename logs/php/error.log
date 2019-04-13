@@ -1,2 +1,110 @@
 [05-Apr-2019 23:42:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /app/public/wp-content/themes/cream-magazine/inc/customizer/controls/class-cream-magazine-multiple-select-dropdown-taxonomies.php on line 37
 [05-Apr-2019 23:42:34 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /app/public/wp-content/themes/cream-magazine/inc/customizer/controls/class-cream-magazine-multiple-select-dropdown-taxonomies.php on line 37
+[09-Apr-2019 14:53:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /app/public/wp-content/themes/cream-magazine/inc/customizer/controls/class-cream-magazine-multiple-select-dropdown-taxonomies.php on line 37
+[09-Apr-2019 14:53:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /app/public/wp-content/themes/cream-magazine/inc/customizer/controls/class-cream-magazine-multiple-select-dropdown-taxonomies.php on line 37
+[10-Apr-2019 20:30:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function magazine_saga_get_page_layout() in /app/public/wp-content/themes/tnm-theme/page.php:37
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/tnm-theme/page.php on line 37
+[10-Apr-2019 20:31:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function magazine_saga_get_page_layout() in /app/public/wp-content/themes/tnm-theme/page.php:37
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/tnm-theme/page.php on line 37
+[11-Apr-2019 14:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_url() in /app/public/wp-content/themes/tnm-theme/header.php:58
+Stack trace:
+#0 /app/public/wp-includes/template.php(704): require_once()
+#1 /app/public/wp-includes/template.php(653): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/tnm-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/tnm-theme/header.php on line 58
+[11-Apr-2019 14:14:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_url() in /app/public/wp-content/themes/tnm-theme/header.php:58
+Stack trace:
+#0 /app/public/wp-includes/template.php(704): require_once()
+#1 /app/public/wp-includes/template.php(653): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/tnm-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/tnm-theme/header.php on line 58
+[11-Apr-2019 15:10:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 293
+[12-Apr-2019 23:11:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /app/public/wp-content/themes/tnm-theme/index.php on line 79 and exactly 1 expected in /app/public/wp-includes/category-template.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/tnm-theme/index.php(79): get_category_link()
+#1 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/category-template.php on line 19
+[12-Apr-2019 23:11:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /app/public/wp-content/themes/tnm-theme/index.php on line 79 and exactly 1 expected in /app/public/wp-includes/category-template.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/tnm-theme/index.php(79): get_category_link()
+#1 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/category-template.php on line 19
+[12-Apr-2019 23:12:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /app/public/wp-content/themes/tnm-theme/index.php on line 79 and exactly 1 expected in /app/public/wp-includes/category-template.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/tnm-theme/index.php(79): get_category_link()
+#1 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/category-template.php on line 19
+[12-Apr-2019 23:12:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /app/public/wp-content/themes/tnm-theme/index.php on line 79 and exactly 1 expected in /app/public/wp-includes/category-template.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/tnm-theme/index.php(79): get_category_link()
+#1 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/category-template.php on line 19
+[12-Apr-2019 23:12:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /app/public/wp-content/themes/tnm-theme/index.php on line 79 and exactly 1 expected in /app/public/wp-includes/category-template.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/tnm-theme/index.php(79): get_category_link()
+#1 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/category-template.php on line 19
+[12-Apr-2019 23:12:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /app/public/wp-content/themes/tnm-theme/index.php on line 79 and exactly 1 expected in /app/public/wp-includes/category-template.php:19
+Stack trace:
+#0 /app/public/wp-content/themes/tnm-theme/index.php(79): get_category_link()
+#1 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/category-template.php on line 19
+[12-Apr-2019 23:26:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_catID() in /app/public/wp-content/themes/tnm-theme/index.php:82
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/tnm-theme/index.php on line 82
+[13-Apr-2019 00:20:18 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:20:27 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:21:19 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:21:40 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:22:20 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:22:28 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:22:43 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:22:44 UTC] PHP Fatal error:  Cannot redeclare night_moose_post_types() (previously declared in /app/public/wp-content/mu-plugins/night-moose-post-types.php:3) in /app/public/wp-content/themes/tnm-theme/functions.php on line 15
+[13-Apr-2019 00:44:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/mu-plugins/night-moose-post-types.php on line 26
+[13-Apr-2019 15:14:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/tnm-theme/single.php on line 157
+[13-Apr-2019 18:25:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/tnm-theme/functions.php on line 18
+[13-Apr-2019 18:25:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/tnm-theme/functions.php on line 18
+[13-Apr-2019 18:25:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/tnm-theme/functions.php on line 19
+[13-Apr-2019 18:25:43 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/tnm-theme/functions.php on line 20
