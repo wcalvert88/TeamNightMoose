@@ -1,11 +1,35 @@
-<?php get_header(); ?>
-    <div class="wrapper inner-banner">
+<?php get_header(); 
+$post = get_post();
+$parentCat = $post->post_type; ?>
+<div class="wrapper inner-banner">
     <div class="entry-header-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="primary-font twp-bredcrumb">
-                        <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="http://templatetesting.local" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name"><?php the_title(); ?></span><meta itemprop="position" content="2" /></li></ul></div>                                </div>
+                        <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb">
+                            <ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList">
+                                <meta name="numberOfItems" content="3" />
+                                <meta name="itemListOrder" content="Ascending" />
+                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin">
+                                    <a href="<?php echo site_url(); ?>" rel="home">
+                                        <span itemprop="name">Home</span>
+                                    </a>
+                                    <meta itemprop="position" content="1" />
+                                </li>
+                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-middle">
+                                <span itemprop="name">
+                                    <a href="<?php echo site_url() . "/" . $parentCat; ?>" rel="category">
+                                        <?php echo $parentCat; ?>
+                                    </a>
+                                </span>
+                                    <meta itemprop="position" content="2" />
+                                </li>
+                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name"><?php the_title(); ?></span><meta itemprop="position" content="3" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12">
                     <h1 class="entry-title"><?php the_title(); ?></h1>
@@ -26,6 +50,7 @@ while($teamPosts->have_posts()) {
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
 
+        <!-- MAKE LINKS FOR PLAYERS USING A CUSTOM FIELD FOR LINKS THAT ARE THE PLAYERS DGS PROFILE AND USE THAT FOR THESE POSTS -->
         
             <article id="post-<?php the_ID(); ?>" class="post-<?php the_ID(); ?> page type-page status-publish hentry">
                 <h2 class='post-title'><?php the_title(); ?></h2>

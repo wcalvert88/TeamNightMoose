@@ -64,7 +64,7 @@ define('NONCE_SALT',       'SwjT/bEmz5IRN2e6wIuXZYiXVOlQ5WWcz16eIqYixrDpgfJrr5o2
 $table_prefix = 'wp_';
 
 
-
+define('WP_ALLOW_REPAIR', true);
 
 /* That's all, stop editing! Happy blogging. */
 

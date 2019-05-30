@@ -30,7 +30,7 @@ while($teamPosts->have_posts()) {
 
         
             <article id="post-<?php the_ID(); ?>" class="post-<?php the_ID(); ?> page type-page status-publish hentry">
-                <h2 class='post-title'><?php the_title(); ?></h2>
+                <h2 class='post-title'><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <div class="entry-content">
     
                     <?php the_content(); ?>

@@ -6,11 +6,19 @@
                 <div class="saga-title-wrapper saga-title-wrapper-1">
                     <h2 class="saga-title">
                         <span class="primary-background">
-                            Trending Now                                            
+                            Latest Posts                                            
                             </span>
                     </h2>
                 </div>
             </div>
+            <?php
+            $latest_posts = new WP_Query(array(
+                'posts_per_page' => 3,
+                'post_type' => 'any'
+            ));
+            while ($latest_posts->have_posts()) {
+                $latest_posts->the_post();
+                ?>
             <div class="col-md-4 col-sm-4">
                 <div class="trending-item-content primary-background border-overlay">
                     <a href="http://team-night-moose.local/a-paradise-for-holiday/" class="bg-image bg-image-1 bg-opacity">
@@ -19,37 +27,12 @@
                         <div class="post-cat primary-font">
                         </div>
                         <h2 class="entry-title entry-title-1">
-                            <a href="http://team-night-moose.local/a-paradise-for-holiday/">A Paradise for Holiday</a>
+                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                         </h2>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="trending-item-content primary-background border-overlay">
-                    <a href="http://team-night-moose.local/destruction-in-montania/" class="bg-image bg-image-1 bg-opacity">
-                        <img class="trending-post-img" src="http://team-night-moose.local/wp-content/uploads/2019/04/fireman.jpg">                                            </a>
-                    <div class="post-content border-overlay-content">
-                        <div class="post-cat primary-font">
-                        </div>
-                        <h2 class="entry-title entry-title-1">
-                            <a href="http://team-night-moose.local/destruction-in-montania/">Destruction in Montania</a>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="trending-item-content primary-background border-overlay">
-                    <a href="http://team-night-moose.local/coffee-is-health-food-myth-or-fact/" class="bg-image bg-image-1 bg-opacity">
-                        <img class="trending-post-img" src="http://team-night-moose.local/wp-content/uploads/2019/04/coffee.jpg">                                            </a>
-                    <div class="post-content border-overlay-content">
-                        <div class="post-cat primary-font">
-                        </div>
-                        <h2 class="entry-title entry-title-1">
-                            <a href="http://team-night-moose.local/coffee-is-health-food-myth-or-fact/">Coffee is health food: Myth or fact?</a>
-                        </h2>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
 </section>

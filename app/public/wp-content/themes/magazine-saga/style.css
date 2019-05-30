@@ -301,6 +301,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto 15px;
 }
 
+.post-subtitle {
+    font-size: 15px;
+    line-height: 1.3;
+    margin: 0 auto 15px;
+}
+
 .home-upper-widgetarea.homepage-widget-fullwidth .post-title {
     font-size: 30px;
 }

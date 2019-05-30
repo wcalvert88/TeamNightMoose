@@ -1,17 +1,8 @@
 /*
 Theme Name: Team Night Moose
-Theme URI: https://themesaga.com/theme/magazine-saga
 Author: Wade Calvert
-Author URI: https://themesaga.com
-Description: Magazine Saga is clean, modern, feature-rich, multiple use purpose, and easy-to-use WordPress theme. Built with Bootstrap3 framework, Magazine Saga is Engineered for the pros and Crafted for the up-and-comers. Magazine Saga is excellent for news, magazine and personal blogs. This simple look is the perfect solution for various industry website. From travel blog, hiking adventures and everything in between, Magazine Saga brings beauty and unique designs combined with performance and fast loading. This multitude of options allow you to create a unique looking homepage in a couple of minutes. The theme integrates clean coding, great design and fast page loading speed. It uses the best clean SEO practices and is a social friendly theme. Our Theme user's can easily personalize their pageâ€™s aesthetic presentation. No advanced knowledge is required for the installation or customization process, as Magazine Saga is very user-friendly. The overall designed is plain and practical, focusing the readerâ€™s attention on what is truly important: the content. Blog followers will be able to enjoy an online experience that is second to none.
-Version: 1.0.8
-License: GNU General Public License v3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: magazine-saga
-Tags: blog, entertainment, news, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
-
-*/
-/*--------------------------------------------------------------
+Version: 1.0
+--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Normalize
@@ -49,6 +40,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #000;
 }
 
 article,
@@ -268,7 +260,7 @@ input,
 select,
 optgroup,
 textarea {
-    color: #333;
+    color: #fff;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.6;
@@ -297,6 +289,12 @@ h1, h2, h3, h4, h5, h6 {
 .saga-title-small,
 .post-title {
     font-size: 20px;
+    line-height: 1.3;
+    margin: 0 auto 15px;
+}
+
+.post-subtitle {
+    font-size: 15px;
     line-height: 1.3;
     margin: 0 auto 15px;
 }
@@ -395,7 +393,7 @@ html {
 }
 
 body {
-    background: #f6f6f7;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 hr {
@@ -591,12 +589,14 @@ textarea {
 /*--------------------------------------------------------------
 # saga Elements
 --------------------------------------------------------------*/
-.primary-background,
+.primary-background {
+    background: #272727;
+}
 .comments-area .comment-list .reply,
 .widget .social-widget-menu ul li:hover a:before,
 .widget .social-widget-menu ul li:focus a:before,
 .single-slide:after {
-    background: #000;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .primary-background,
@@ -607,7 +607,7 @@ textarea {
 }
 
 a {
-    color: #000;
+    color: #fff;
 }
 
 .secondary-background,
@@ -624,12 +624,12 @@ a {
 .bttn:before,
 .author-info .author-social > a:hover,
 .author-info .author-social > a:focus{
-    background: #ff5252;
+    background: #790909;
     color: #fff;
 }
 
 body .bttn {
-    border-color: #ff5252;
+    border-color: #790909;
 }
 
 a:hover,
@@ -639,7 +639,7 @@ a:active,
 .primary-background a:focus,
 #colophon.site-footer a:hover,
 #colophon.site-footer a:focus{
-    color: #ff5252;
+    color: #790909;
 }
 
 .secondary-background,
@@ -736,7 +736,7 @@ a:active {
 }
 
 #saga-header:before {
-    background: #fff;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
     display: block;
     height: 100%;
     filter: alpha(opacity=74);
@@ -892,7 +892,7 @@ a:active {
 }
 
 .search-box {
-    background: #fff;
+    background: #272727;
     display: none;
     padding: 20px 0;
     text-align: center;
@@ -1942,7 +1942,7 @@ header.nav-affix .saga-navigation {
 }
 
 .saga-title-wrapper-1 .saga-title {
-    background: url(assets/images/title-pattern.png) repeat;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .saga-title-wrapper-1 .saga-title span {
@@ -2517,7 +2517,7 @@ body .saga-slider .owl-dots {
 }
 
 .site-footer {
-    background: #10100f;
+    background: #272727;
 }
 
 .site-footer,
@@ -3154,6 +3154,11 @@ input[type="submit"],
     letter-spacing: 1px;
 }
 
+.saga-title {
+    border-style: solid;
+    border-color: #272727;
+}
+
 .social-icons {
     float: left;
 }
@@ -3349,7 +3354,7 @@ input[type="submit"],
 .inner-banner,
 .comments-area,
 .home-primary-sidebar .widget {
-    background: #fff;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .section-bg {

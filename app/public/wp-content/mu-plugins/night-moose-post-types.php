@@ -1,6 +1,7 @@
 <?php
 function night_moose_post_types() {
     register_post_type('tournaments', array(
+        'supports' => array('title', 'editor', 'excerpt'),
         'rewrite' => array(
             'slug' => 'tournaments'
         ),
@@ -17,6 +18,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('player-stats', array(
+        'supports' => array('title', 'editor', 'excerpt'),
         'rewrite' => array(
             'slug' => 'player-stats'
         ),
@@ -33,6 +35,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('message-board', array(
+        'supports' => array('title', 'editor', 'excerpt'),
         'rewrite' => array(
             'slug' => 'message-board'
         ),
@@ -49,6 +52,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('league', array(
+        'supports' => array('title', 'editor', 'excerpt'),
         'rewrite' => array(
             'slug' => 'leagues'
         ),
@@ -77,10 +81,12 @@ function night_moose_post_types() {
             'all_items' => 'All Team Members',
             'singular_name' => 'Team Member'
         ),
+        'exclude_from_search' => true,
         'menu_icon' => 'dashicons-groups'
     ));
 
     register_post_type('ambassadors', array(
+        'supports' => array('title', 'editor', 'excerpt'),
         'rewrite' => array(
             'slug' => 'ambassadors'
         ),
