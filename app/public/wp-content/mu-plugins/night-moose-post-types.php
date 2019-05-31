@@ -1,7 +1,7 @@
 <?php
 function night_moose_post_types() {
     register_post_type('tournaments', array(
-        'supports' => array('title', 'editor', 'excerpt'),
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
         'rewrite' => array(
             'slug' => 'tournaments'
         ),
@@ -18,7 +18,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('player-stats', array(
-        'supports' => array('title', 'editor', 'excerpt'),
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
         'rewrite' => array(
             'slug' => 'player-stats'
         ),
@@ -35,7 +35,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('message-board', array(
-        'supports' => array('title', 'editor', 'excerpt'),
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
         'rewrite' => array(
             'slug' => 'message-board'
         ),
@@ -52,7 +52,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('league', array(
-        'supports' => array('title', 'editor', 'excerpt'),
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
         'rewrite' => array(
             'slug' => 'leagues'
         ),
@@ -69,6 +69,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('team', array(
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
         'rewrite' => array(
             'slug' => 'team'
         ),
@@ -86,7 +87,7 @@ function night_moose_post_types() {
     ));
 
     register_post_type('ambassadors', array(
-        'supports' => array('title', 'editor', 'excerpt'),
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
         'rewrite' => array(
             'slug' => 'ambassadors'
         ),

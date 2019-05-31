@@ -32,8 +32,16 @@ while($teamPosts->have_posts()) {
             <article id="post-<?php the_ID(); ?>" class="post-<?php the_ID(); ?> page type-page status-publish hentry">
                 <a href="<?php the_permalink(); ?>"><h2 class='post-title'><?php the_title(); ?></h2></a>
                 <div class="entry-content">
-    
-                    <?php the_content(); ?>
+                    
+                    <?php
+                    
+                    
+                    if (!empty(get_the_post_thumbnail_url())) { 
+                         ?>
+                        <?php the_post_thumbnail( 'thumbnail'); ?>
+                    <?php }
+                    the_content();
+                      ?>
                 </div><!-- .entry-content -->
 
                 <footer class="entry-footer">

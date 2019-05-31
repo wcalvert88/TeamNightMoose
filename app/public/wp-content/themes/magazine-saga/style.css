@@ -2540,8 +2540,8 @@ body .saga-slider .owl-dots {
 }
 
 .footer-widget-area {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 .site-footer .widget-title {

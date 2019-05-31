@@ -30,6 +30,9 @@ add_action('wp_enqueue_scripts', 'night_moose_files');
 
 function night_moose_features() {
     add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+    add_image_size('footerImage', 200, 150, false);
+    add_image_size('playerStatsImage', 150, 150, false);
 }
 
 add_action('after_setup_theme', 'night_moose_features');

@@ -974,9 +974,9 @@ header.nav-affix .saga-navigation {
     width: 100%;
 }
 
-.admin-bar header.nav-affix .saga-navigation {
+/* .admin-bar header.nav-affix .saga-navigation {
     top: 32px;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .admin-bar header.nav-affix .saga-navigation {
@@ -2533,10 +2533,10 @@ body .saga-slider .owl-dots {
     letter-spacing: 2px;
 }
 
-.footer-widget-area {
-    padding-top: 50px;
+ .footer-widget-area {
+    /* padding-top: 50px; */
     padding-bottom: 50px;
-}
+} 
 
 .site-footer .widget-title {
     color: #fff;
@@ -2561,7 +2561,7 @@ body .saga-slider .owl-dots {
 
 .site-copyright {
     border-top: 1px solid #303030;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 /*--------------------------------------------------------------
